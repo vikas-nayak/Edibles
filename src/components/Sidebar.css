@@ -1,0 +1,49 @@
+
+
+.sidebar {
+    width: 80px;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #1F1D2B;
+    color: #EA7C69;
+    font-size: xx-large;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+
+  .icons #restaurant,
+  .icons #home,
+  .icons #message,
+  .icons #notifications,
+  .icons #settings,
+  .icons #logout {
+    margin-bottom: 70px;
+    cursor: pointer;
+
+  }
+
+  .icons #restaurant{
+    margin-top: 30px;
+  }
+
+  .icons #restaurant:hover,
+  .icons #home:hover,
+  .icons #message:hover,
+  .icons #notifications:hover,
+  .icons #settings:hover,
+  .icons #logout:hover{
+    color: white;
+    transition: 0.2s;
+  }
+
