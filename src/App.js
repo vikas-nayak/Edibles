@@ -3,6 +3,8 @@ import Card from './components/Card'
 import CardEdit from './components/CardEdit'
 import Sidebar from './components/Sidebar'
 import Search from './components/Search'
+import dish from './assets/dish.png';
+import AddNew from './components/AddNew'
 
 
 const App = () => {
@@ -15,17 +17,68 @@ const App = () => {
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-start', marginTop: '100px' }}>
 
 
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card
+          dish={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
+        <Card
+          dish={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
+        <Card
+          dish={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
+        <Card
+          dish={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
+        <Card
+          dish={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
 
-        <CardEdit />
-        <CardEdit />
-        <CardEdit />
-        <CardEdit />
-        <CardEdit />
+        {/* <CardEdit
+          dishs={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        /> */}
+        <CardEdit
+          dishs={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
+        <CardEdit
+          dishs={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
+        <CardEdit
+          dishs={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
+        <CardEdit
+          dishs={dish}
+          dishName="Spicy seasoned seafood noodles"
+          price="$ 6.99"
+          bowls="8"
+        />
+  <AddNew/>
       </div>
     </div>
   )

@@ -1,0 +1,25 @@
+.add{
+    height: 250px;
+    width: 192px;
+    /* background: #1F1D2B; */
+    border-radius: 20px;
+    margin-top: 5%;
+    justify-content: center;
+    border: 1px dashed #EA7C69;
+    margin-top: 50px;
+    margin-left: 30px;
+    cursor:pointer;
+    text-align: center;
+    color: #EA7C69;
+    transition: 200ms;
+
+}
+
+.add .box{
+    margin-top: 50%;
+}
+
+.add:hover{
+    background: rgb(233, 123, 103, 0.2);
+
+}

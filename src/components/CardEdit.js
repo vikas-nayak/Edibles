@@ -1,16 +1,14 @@
 import React from 'react';
 import './CardEdit.css';
-import dishs from '../../src/assets/dish.png';
 
-const CardEdit = () => {
+const CardEdit = (props) => {
   return (
     <div>
       <div className='cardE'>
-        <img className='dishs' src={dishs} alt='food'></img>
-        <p className='dish-namee'>Spicy seasoned seafood noodles</p>
-        <p className='pricee'>$ 6.99  •  8 bowls available</p>
+        <img className='dishs' src={props.dishs} alt='food'></img>
+        <p className='dish-namee'>{props.dishName}</p>
+        <p className='pricee'>{props.price}  •  {props.bowls} bowls available</p>
         <button className='butt'>✎ Edit dish</button>
-
       </div>
     </div>
   );
